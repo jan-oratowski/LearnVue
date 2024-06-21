@@ -14,7 +14,6 @@ const app = Vue.createApp(
                     { id: 2235, color: 'blue', image: './assets/images/socks_blue.jpg' }
                 ],
                 cart: 0,
-                url: 'https://www.google.com'
             }
         },
     }
