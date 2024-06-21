@@ -17,6 +17,17 @@ const app = Vue.createApp(
                 cart: 0,
             }
         },
+        methods: {
+            addToCart: function() {
+                this.cart += 1
+            },
+            removeFromCart: function() {
+                this.cart -= 1
+            },
+            updateImage: function(image) {
+                this.image = image
+            },
+        }
     }
 )
 const product = 'Socks'
